@@ -7,6 +7,12 @@
 // Write the function to find the hero obtained.
 function hero(bullets, dragons){
      //your code here
+     if(2*dragons<=bullets){
+       return true;
+     }
+     else{
+       return false;
+     }
   }
 
 //Use SpecRunner to check the Test Cases.
